@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logoAT.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avicola Terramar</title>
+    <style>
+      html,
+      body,
+      #root {
+        scroll-padding-top: 64px; /* Height of the fixed AppBar, adjust if necessary */
+        height: 100%; /* Ensures that the root div stretches to the full height of the viewport */
+        margin: 0; /* Removes default margin */
+        padding: 0; /* Removes default padding */
+        width: 100%; /* Ensures the body and html tags stretch to full width */
+        overflow-x: hidden; /* Prevents horizontal scroll */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
